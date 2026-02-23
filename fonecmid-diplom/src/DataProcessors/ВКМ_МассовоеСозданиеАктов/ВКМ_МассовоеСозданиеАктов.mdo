@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="362f20e4-31d0-45c8-a7f7-dd2b30990fd0">
+  <producedTypes>
+    <objectType typeId="9f2ca9bb-ad41-4cd6-bcf1-e3ee138974db" valueTypeId="401dac32-d6ed-4fc8-a121-43cf0b86c368"/>
+    <managerType typeId="1cceebc2-176c-4a6d-8234-c45d99035f26" valueTypeId="050dca0a-d4c9-4045-beef-54823ed87609"/>
+  </producedTypes>
+  <name>ВКМ_МассовоеСозданиеАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массовое создание актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="d01221a3-0e0a-4e21-b6ff-1f7dea082969">
+    <name>ВКМ_Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>
