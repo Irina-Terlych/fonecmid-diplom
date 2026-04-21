@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="744fd774-08cb-4dcd-b3b0-084f11e276cd">
+  <producedTypes>
+    <objectType typeId="2842efef-1cd4-412c-b749-79a6d00a58a5" valueTypeId="1d687a32-bd85-4061-9984-0d950ebcffc4"/>
+    <refType typeId="8f08fd4b-ed64-420c-acf2-eb5c6828579c" valueTypeId="ab720b5c-a567-499d-b596-93efe5c8f761"/>
+    <selectionType typeId="c35f230e-f463-449f-b783-3da4010cdae7" valueTypeId="c820e283-9ffc-4592-b4df-300d67dca163"/>
+    <listType typeId="4d19197b-0062-4238-b42c-d847085c21e3" valueTypeId="62ae9159-493a-48cd-8f9d-3be8e08467e6"/>
+    <managerType typeId="ecb5021e-08d9-405c-88c6-9f5396950f9e" valueTypeId="1d4c2f28-9e4f-4cfa-9ae1-5cd48ef1783a"/>
+  </producedTypes>
+  <name>ВКМ_Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f26dec44-31fa-4602-86f7-e04a305a4429">
+      <name>ИвановИванИванович</name>
+      <description>Иванов Иван Иванович</description>
+      <code xsi:type="core:StringValue">
+        <value>Иванов</value>
+      </code>
+    </items>
+    <items id="648bb0a4-03c3-4c21-9a06-6f2f911100b4">
+      <name>ПетровИгорьЮрьевич</name>
+      <description>Петров Игорь Юрьевич</description>
+      <code xsi:type="core:StringValue">
+        <value>Петров</value>
+      </code>
+    </items>
+    <items id="4639e671-504b-4642-9947-d7196050aaa6">
+      <name>ВасильевИльяИгоревич</name>
+      <description>Васильев Илья Игоревич</description>
+      <code xsi:type="core:StringValue">
+        <value>Васильев</value>
+      </code>
+    </items>
+    <items id="af00b0ad-3f1c-4b16-9030-90e89aef51ce">
+      <name>МалиноваЮлияПетровна</name>
+      <description>Малинова Юлия Петровна</description>
+      <code xsi:type="core:StringValue">
+        <value>Малинова</value>
+      </code>
+    </items>
+    <items id="daca6bb1-dcaa-4715-bf16-f62a04c54528">
+      <name>ДенисоваИринаАлексеевна</name>
+      <description>Денисова Ирина Алексеевна</description>
+      <code xsi:type="core:StringValue">
+        <value>Денисова</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d745977f-3e8e-41ba-bbf0-d219fa9b78df">
+    <name>ВКМ_Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb2740c4-2156-42f7-998d-8994a5fcaba3">
+    <name>ВКМ_Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ДолжностиСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="353c68f8-b154-4071-bb8b-98213992b4c9">
+    <name>ВКМ_ПроцентЗаВыполненныеРаботыКлиентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент за выполненные работы клиентам</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b6f06ae-78e7-4452-9f70-11a036f246cb">
+    <name>ВКМ_СуммаПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма премии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

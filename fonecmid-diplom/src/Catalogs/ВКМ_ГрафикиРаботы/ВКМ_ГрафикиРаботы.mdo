@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d18b285-c6ff-431d-9df4-90041a39faf9">
+  <producedTypes>
+    <objectType typeId="09c520e6-3a35-4a48-86a5-af657f12b29c" valueTypeId="a92a4e94-c171-46b3-adde-04fc8eebc7f6"/>
+    <refType typeId="04a1fcb5-c18c-4cbc-912b-a3e0da0a5a18" valueTypeId="136b1c9f-7b12-4d79-8301-0f71bfc536fd"/>
+    <selectionType typeId="76b1aa44-f8d5-438c-b4af-c2b7dab3a419" valueTypeId="5928a747-7c4b-4bea-b98e-f050de266d10"/>
+    <listType typeId="b50dab25-e9fc-42d0-b328-f14d37932383" valueTypeId="9a136fcf-5498-4478-9404-15700761fb8c"/>
+    <managerType typeId="0bed54d9-d6ec-4267-9c73-276acdecf164" valueTypeId="697e10be-b8d3-4783-80ef-bb4288aa03e0"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>График работы</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="93a8e899-366b-4a2a-9c98-8e52c89fea3d">
+      <name>КалендарныйГрафик</name>
+      <description>Календарный график</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="1c181d07-007f-4726-9480-295bbf55b28a">
+      <name>ОсновнойГрафик</name>
+      <description>Основной график</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03457d95-51f6-4b24-93a7-c3722eb94889">
+  <name>ВКМ_РасчетЗаработнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет заработной платы</value>
+  </synonym>
+</mdclass:Role>
