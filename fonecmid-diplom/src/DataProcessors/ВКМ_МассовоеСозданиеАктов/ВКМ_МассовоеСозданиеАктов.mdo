@@ -10,6 +10,7 @@
     <value>Массовое создание актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
   <attributes uuid="d01221a3-0e0a-4e21-b6ff-1f7dea082969">
     <name>ВКМ_Период</name>
     <synonym>
@@ -22,7 +23,61 @@
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>MM.yyyy</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <tabularSections uuid="c716f036-83b5-4513-ace7-1c234a0401f6">
+    <producedTypes>
+      <objectType typeId="63583dfb-afa3-4e40-a459-b93610bc823f" valueTypeId="d1ba2e34-dc71-43d6-9db2-12514f7228e7"/>
+      <rowType typeId="cd0a5da8-fa1c-410f-8f46-c425c8e77bbb" valueTypeId="02547b48-6542-4d7c-910f-31d68cfcd7dd"/>
+    </producedTypes>
+    <name>СписокДоговоров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список договоров</value>
+    </synonym>
+    <attributes uuid="abe9788a-417d-4543-be83-ab80912f34c2">
+      <name>Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ad175cbd-fb59-4a95-955f-bb796f58451d">
+      <name>Реализация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реализация</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5fa905bd-0006-418f-95cd-3e2bdcd0fc7b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

@@ -8,12 +8,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Document.ПоступлениеТоваровУслуг.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -54,7 +48,6 @@
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ЗаказПокупателя.StandardCommand.OpenList</commands>
-      <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelOrdinary</group>
@@ -76,7 +69,6 @@
     <orderFragments>
       <group>NavigationPanelImportant</group>
       <commands>Document.ЗаказПокупателя.StandardCommand.OpenList</commands>
-      <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>

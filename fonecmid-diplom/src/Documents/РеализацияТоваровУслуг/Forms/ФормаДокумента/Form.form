@@ -249,6 +249,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Договор</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ДоговорПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ДоговорРасширеннаяПодсказка</name>
           <id>24</id>
@@ -1405,6 +1409,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВКМ_Заполнить</name>
       <id>163</id>
+      <title>
+        <key>ru</key>
+        <value>Заполнить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1469,12 +1477,17 @@
     <name>ВКМ_Заполнить</name>
     <title>
       <key>ru</key>
-      <value>Заполнить</value>
+      <value>ВКМ заполнить</value>
     </title>
-    <id>1</id>
+    <id>2</id>
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВКМ_Заполнить1</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
