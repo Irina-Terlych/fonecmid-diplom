@@ -205,6 +205,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9a11acc3-99a3-45e7-a79b-d182a6b22bca">
+    <name>ВКМ_Ответсвенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответсвенный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="4052941b-e19c-475b-ae9d-5fcee827f044">
     <name>ВКМ_ФормаДокумента</name>
     <synonym>

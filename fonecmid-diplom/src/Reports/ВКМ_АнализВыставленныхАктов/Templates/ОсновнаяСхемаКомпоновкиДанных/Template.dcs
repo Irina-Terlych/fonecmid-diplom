@@ -41,26 +41,52 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Сумма</dataPath>
-			<field>Сумма</field>
+			<dataPath>ФактическиВыставленнаяСуммаКлиенту</dataPath>
+			<field>ФактическиВыставленнаяСуммаКлиенту</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сумма</v8:content>
+					<v8:content>Фактически выставленная сумма клиенту</v8:content>
 				</v8:item>
 			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОказанныхУслуг</dataPath>
+			<field>СуммаОказанныхУслуг</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма оказанных услуг</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказ</dataPath>
+			<field>Заказ</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ВКМ_ВыполненныеКлиентуРаботыОбороты.ВКМ_Клиент КАК Клиент,
 	ВКМ_ВыполненныеКлиентуРаботыОбороты.ВКМ_Договор КАК Договор,
-	ВКМ_ВыполненныеКлиентуРаботыОбороты.ВКМ_СуммаКОплатеОборот КАК Сумма
+	ВКМ_ВыполненныеКлиентуРаботыОбороты.ВКМ_СуммаКОплатеОборот КАК СуммаОказанныхУслуг,
+	ОбработкаЗаказовОбороты.ВКМ_СуммаВыполненныхРаботОборот КАК ФактическиВыставленнаяСуммаКлиенту
 ИЗ
-	РегистрНакопления.ВКМ_ВыполненныеКлиентуРаботы.Обороты(&amp;НачалоПериода, &amp;КонецПериода, , ) КАК ВКМ_ВыполненныеКлиентуРаботыОбороты</query>
+	РегистрНакопления.ВКМ_ВыполненныеКлиентуРаботы.Обороты(&amp;НачалоПериода, &amp;КонецПериода, , ) КАК ВКМ_ВыполненныеКлиентуРаботыОбороты
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ОбработкаЗаказов.Обороты КАК ОбработкаЗаказовОбороты
+		ПО ВКМ_ВыполненныеКлиентуРаботыОбороты.ВКМ_Клиент = ОбработкаЗаказовОбороты.Контрагент
+			И ВКМ_ВыполненныеКлиентуРаботыОбороты.ВКМ_Договор = ОбработкаЗаказовОбороты.Договор</query>
 	</dataSet>
 	<totalField>
-		<dataPath>Сумма</dataPath>
-		<expression>Сумма(Сумма)</expression>
+		<dataPath>СуммаОказанныхУслуг</dataPath>
+		<expression>Сумма(СуммаОказанныхУслуг)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ФактическиВыставленнаяСуммаКлиенту</dataPath>
+		<expression>Сумма(ФактическиВыставленнаяСуммаКлиенту)</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -129,7 +155,10 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Сумма</dcsset:field>
+					<dcsset:field>СуммаОказанныхУслуг</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФактическиВыставленнаяСуммаКлиенту</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>

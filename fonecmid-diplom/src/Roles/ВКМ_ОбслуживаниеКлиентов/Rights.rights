@@ -134,6 +134,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ДолжностиСотрудников</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</name>
 		<right>
 			<name>Read</name>
@@ -299,6 +310,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_Сотрудники</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -522,14 +544,6 @@
 	<object>
 		<name>Configuration.УправлениеITФирмой</name>
 		<right>
-			<name>ThinClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>WebClient</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>MainWindowModeNormal</name>
 			<value>true</value>
 		</right>
@@ -551,10 +565,6 @@
 		</right>
 		<right>
 			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
 	</object>

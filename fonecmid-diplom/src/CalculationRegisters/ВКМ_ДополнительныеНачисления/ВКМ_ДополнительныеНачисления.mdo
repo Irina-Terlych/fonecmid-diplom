@@ -39,22 +39,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="e211d38a-b936-4246-ac3d-1e547270006b">
-    <name>ВКМ_НДФЛ</name>
-    <synonym>
-      <key>ru</key>
-      <value>НДФЛ</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
   <dimensions uuid="aa5008f4-50fc-4d17-b805-a39973b5a92b">
     <name>ВКМ_Сотрудник</name>
     <synonym>

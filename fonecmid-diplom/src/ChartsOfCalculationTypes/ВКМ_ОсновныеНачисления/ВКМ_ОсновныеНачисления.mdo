@@ -37,17 +37,6 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
   <actionPeriodUse>true</actionPeriodUse>
   <predefined>
-    <items id="8e840145-5408-4f6e-b77e-68d8879e7741">
-      <name>НДФЛ</name>
-      <description>НДФЛ</description>
-      <code xsi:type="core:StringValue">
-        <value>НДФЛ</value>
-      </code>
-      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
-      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпускные</base>
-      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.НадбавкаЗаВыполненныеРаботы</base>
-      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.РазоваяПремия</base>
-    </items>
     <items id="b8f4f918-855b-4bc8-bf23-70a2b1b4c187">
       <name>Оклад</name>
       <description>Оклад</description>

@@ -57,6 +57,19 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="277959c7-55f9-402e-8d3b-7217610917d7">
+      <name>Клиент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
     <attributes uuid="ad175cbd-fb59-4a95-955f-bb796f58451d">
       <name>Реализация</name>
       <synonym>

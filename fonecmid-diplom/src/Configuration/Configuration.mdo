@@ -886,7 +886,6 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
-  <commonModules>CommonModule.ВКМ_РаботаСФормами</commonModules>
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
   <commonModules>CommonModule.ВКМ_ВыполнитьАвтозаполнениеРеализаций</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
@@ -1421,4 +1420,5 @@
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.ВКМ_ОсновныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.ВКМ_ДополнительныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.ВКМ_Удержания</calculationRegisters>
 </mdclass:Configuration>

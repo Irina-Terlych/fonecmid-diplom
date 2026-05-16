@@ -8,6 +8,7 @@
   <methodName>CommonModule.ВКМ_Телеграм.ОтправкаУведомлений</methodName>
   <description>Отправка уведомлений</description>
   <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

@@ -34,6 +34,7 @@
   <defaultObjectForm>Document.ВКМ_НачислениеЗаработнойПлаты.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ВКМ_ДанныеПоОтпускамСотрудников</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
   <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -86,7 +87,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="f6deb48b-ceea-4b55-941d-aeab5a9b7246">
-      <name>ВКМ_ВидРасчета</name>
+      <name>ВидРасчета</name>
       <synonym>
         <key>ru</key>
         <value>Вид расчета</value>

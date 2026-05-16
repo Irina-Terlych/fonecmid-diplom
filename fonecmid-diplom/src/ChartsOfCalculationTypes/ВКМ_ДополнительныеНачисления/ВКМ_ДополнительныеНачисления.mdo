@@ -40,13 +40,6 @@
         <value>Надбавка</value>
       </code>
     </items>
-    <items id="a49d31fb-4c6e-4d3e-aa06-dbbdd3519b8c">
-      <name>НДФЛ</name>
-      <description>НДФЛ</description>
-      <code xsi:type="core:StringValue">
-        <value>НДФЛ</value>
-      </code>
-    </items>
     <items id="aead8f5b-1355-475d-911c-db09ba00b688">
       <name>РазоваяПремия</name>
       <description>Разовая премия</description>

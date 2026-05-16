@@ -912,6 +912,25 @@
 		</right>
 	</object>
 	<object>
+		<name>CalculationRegister.ВКМ_Удержания</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ВКМ_ВыплатаЗарплаты</name>
 		<right>
 			<name>Read</name>
@@ -1024,14 +1043,6 @@
 	<object>
 		<name>Configuration.УправлениеITФирмой</name>
 		<right>
-			<name>ThinClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>WebClient</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>MainWindowModeNormal</name>
 			<value>true</value>
 		</right>
@@ -1053,10 +1064,6 @@
 		</right>
 		<right>
 			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
 	</object>
